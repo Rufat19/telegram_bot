@@ -1,0 +1,4 @@
+python-dotenv
+aiogram==3.7.0
+requests>=2.25.0
+redis>=4.5.0
