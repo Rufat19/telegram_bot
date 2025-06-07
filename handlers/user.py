@@ -1,8 +1,7 @@
 from aiogram import Router, F
 from aiogram.types import Message, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove, PhotoSize
-from aiogram.fsm.context import FSMContext, StorageKey
+from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.base import StorageKey
-from aiogram.fsm.storage.redis import RedisStorage
 from states.quiz import QuizStates
 from data.questions import questions
 from config import config
@@ -158,8 +157,8 @@ async def handle_receipt_photo(message: Message, state: FSMContext):
 
     await message.answer(
         "📤 Təşəkkür edirik! Ödəniş qəbziniz uğurla alındı və yoxlanış üçün administratora yönləndirildi.\n\n"
-        "⏳ Zəhmət olmasa, təsdiq üçün növbəti mesajımı gözləyin (Bu bəzən bir neçə saat, hətta gün çəkə bilər).\n"
-        "✅ Narahat olmayın, təsdiqləndikdən sonra sizə bildiriş göndəriləcək və siz imtahana yenidən başlaya biləcəksiniz."
+        "⏳ Zəhmət olmasa, təsdiq üçün növbəti mesajımı gözləyin.\n"
+        "✅ Narahat olmayın, təsdiqləndikdən sonra imtahana yenidən başlaya biləcəksiniz."
     )
     await state.clear()
 
