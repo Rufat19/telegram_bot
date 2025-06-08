@@ -12,7 +12,7 @@ questions = [
     },
     {
         "question": "15.09.1960-cı il təvəllüd qadının əlillik müddəti 15.02.2021-ci il tarixində bitdiyində ailə başçısını itirməyə görə əmək pensiya ödənişi dayandırılmışdır. Həmin tarixə pensiya məbləği 259.78 manat təşkil edirdi. 15.03.2024-cü il tarixində yaşa görə əmək pensiya hüququ yarandığından ailə başçısını itirməyə görə əmək pensiyasının məbləği nə qədər olacaq?",
-        "options": ["363,86 manat", " 280,00 manat", " 342,61 manat", " 327,21 manat"],
+        "options": ["363,86 manat","280,00 manat","342,61 manat","327,21 manat"],
         "correct": "342,61 manat"
     },
     {
